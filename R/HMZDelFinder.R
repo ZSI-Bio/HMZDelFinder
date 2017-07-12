@@ -88,7 +88,7 @@ dl_from_dropbox <- function(x, key, out) {
 ##' @param outputDir	  output directory
 ##' @param mc.cores	      number of cores
 ##------------------------------------------------------------------------------
-
+##' @export
 calcRPKMsFromBAMs <- function (bedFile, bamFiles, sampleNames, outputDir, mc.cores)
 {
 	library(Rsubread)
@@ -633,7 +633,7 @@ printBanner <- function()
 ##' @param tR_id				ID for 'the number of total reads' in VCF FORMAT column (default='DP')
 ##' @param filter				only variants with this value in the VCF FILTER column will be used in AOH analysis  
 ##------------------------------------------------------------------------------
-
+##' @export
 runHMZDelFinder <- function(snpPaths, snpFids,
 		rpkmPaths, rpkmFids,
 		mc.cores, aohRDataOut,
