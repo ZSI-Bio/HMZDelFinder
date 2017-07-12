@@ -1,6 +1,6 @@
 Package: HMZDelFinder
 Title: CNV Calling Algorithm For Detection HMZ deletions.
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Tomasz", "Gambin", email = "tgambin@gmail.com", role = c("aut", "cre"))
 Description: CNV calling algorithm for detection of rare, homozygous and hemizygous deletions from whole exome sequencing data.
 Depends: R (>= 3.2.3)
